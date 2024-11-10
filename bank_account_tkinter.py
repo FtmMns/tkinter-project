@@ -2,9 +2,8 @@ from tkinter import *
 import pandas as pd
 import openpyxl
 import xlsxwriter
-import bankacount
-exel_data = pd.read_excel("C:\\Users\\PC\\Desktop\\Users.xlsx")
-file_path = ("C:\\Users\\PC\\Desktop\\Users.xlsx")
+file_path = ("C:\\Users\\Asus\\Documents\\git codes\\tkinter-project\\Users.xlsx")
+exel_data = pd.read_excel(file_path)
 user_i_logged = None
 update_balance = 0
 def login_func():
